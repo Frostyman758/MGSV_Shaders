@@ -1,0 +1,521 @@
+{
+  "shaders": [
+    {
+      "name": "Prim_Decal\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Decal_vs.fxc",
+      "pixel_shader_file": "Prim_Decal_ps.fxc"
+    },
+    {
+      "name": "Prim_Decal_Blood\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Decal_Blood_vs.fxc",
+      "pixel_shader_file": "Prim_Decal_Blood_ps.fxc"
+    },
+    {
+      "name": "Prim_Decal_BloodAnm\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Decal_BloodAnm_vs.fxc",
+      "pixel_shader_file": "Prim_Decal_BloodAnm_ps.fxc"
+    },
+    {
+      "name": "Prim_LocusBlade\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_LocusBlade_vs.fxc",
+      "pixel_shader_file": "Prim_LocusBlade_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_Distortion\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_Distortion_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_Distortion_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_FastDraw\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_FastDraw_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_FastDraw_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_RainScroll\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_RainScroll_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_RainScroll_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_RainScroll_Gm2_2\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_RainScroll_Gm2_2_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_RainScroll_Gm2_2_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_RainScroll_DL\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_RainScroll_DL_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_RainScroll_DL_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_Softblend\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_Softblend_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_Softblend_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_SunshineScroll\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_SunshineScroll_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_SunshineScroll_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_TexAnmSoftBlend\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_TexAnmSoftBlend_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_TexAnmSoftBlend_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_CamDotNrmAlp\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_CamDotNrmAlp_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_CamDotNrmAlp_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_CamDotCurveSizAlp\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_CamDotCurveSizAlp_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_CamDotCurveSizAlp_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_FastDraw_DL\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_FastDraw_DL_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_FastDraw_DL_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_Softblend_DL\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_Softblend_DL_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_Softblend_DL_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_TexAnmSoftBlend_DL\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_TexAnmSoftBlend_DL_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_TexAnmSoftBlend_DL_ps.fxc"
+    },
+    {
+      "name": "Prim_Sprite_Liquid\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Sprite_Liquid_vs.fxc",
+      "pixel_shader_file": "Prim_Sprite_Liquid_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP1\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP1_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP1_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP1TA\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP1TA_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP1TA_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP2\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP2_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP2_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP2TA\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP2TA_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP2TA_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP3\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP3_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP3_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP3TA\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP3TA_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP3TA_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP1_NS\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP1_NS_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP1_NS_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP1TA_NS\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP1TA_NS_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP1TA_NS_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP2_NS\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP2_NS_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP2_NS_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP2TA_NS\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP2TA_NS_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP2TA_NS_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP3_NS\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP3_NS_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP3_NS_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP3TA_NS\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP3TA_NS_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP3TA_NS_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitD_Fast\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitD_Fast_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitD_Fast_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitD_Fast_NS\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitD_Fast_NS_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitD_Fast_NS_ps.fxc"
+    },
+    {
+      "name": "Prim_Trail_Distortion\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Trail_Distortion_vs.fxc",
+      "pixel_shader_file": "Prim_Trail_Distortion_ps.fxc"
+    },
+    {
+      "name": "Prim_Trail_Lit1\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Trail_Lit1_vs.fxc",
+      "pixel_shader_file": "Prim_Trail_Lit1_ps.fxc"
+    },
+    {
+      "name": "Prim_Trail_Lit1_NS\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Trail_Lit1_NS_vs.fxc",
+      "pixel_shader_file": "Prim_Trail_Lit1_NS_ps.fxc"
+    },
+    {
+      "name": "Prim_Trail_Softblend\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Trail_Softblend_vs.fxc",
+      "pixel_shader_file": "Prim_Trail_Softblend_ps.fxc"
+    },
+    {
+      "name": "Prim_Trail_Softblend_DL\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Trail_Softblend_DL_vs.fxc",
+      "pixel_shader_file": "Prim_Trail_Softblend_DL_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_BulletLine\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_BulletLine_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_BulletLine_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_BulletLine_Dist\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_BulletLine_Dist_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_BulletLine_Dist_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_BulletLine_Lit\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_BulletLine_Lit_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_BulletLine_Lit_ps.fxc"
+    },
+    {
+      "name": "Prim_Decal_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Decal_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Decal_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Decal_Blood_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Decal_Blood_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Decal_Blood_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Decal_BloodAnm_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Decal_BloodAnm_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Decal_BloodAnm_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_LocusBlade_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_LocusBlade_VF_vs.fxc",
+      "pixel_shader_file": "Prim_LocusBlade_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_Distortion_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_Distortion_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_Distortion_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_FastDraw_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_FastDraw_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_FastDraw_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_RainScroll_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_RainScroll_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_RainScroll_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_RainScroll_DL_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_RainScroll_DL_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_RainScroll_DL_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_Softblend_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_Softblend_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_Softblend_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_SunshineScroll_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_SunshineScroll_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_SunshineScroll_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_TexAnmSoftBlend_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_TexAnmSoftBlend_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_TexAnmSoftBlend_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_CamDotNrmAlp_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_CamDotNrmAlp_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_CamDotNrmAlp_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_CamDotCurveSizAlp_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_CamDotCurveSizAlp_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_CamDotCurveSizAlp_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_FastDraw_DL_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_FastDraw_DL_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_FastDraw_DL_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_Softblend_DL_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_Softblend_DL_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_Softblend_DL_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_TexAnmSoftBlend_DL_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_TexAnmSoftBlend_DL_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_TexAnmSoftBlend_DL_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Sprite_Liquid_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Sprite_Liquid_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Sprite_Liquid_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP1_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP1_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP1_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP1TA_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP1TA_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP1TA_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP2_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP2_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP2_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP2TA_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP2TA_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP2TA_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP3_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP3_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP3_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP3TA_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP3TA_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP3TA_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP1_NS_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP1_NS_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP1_NS_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP1TA_NS_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP1TA_NS_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP1TA_NS_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP2_NS_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP2_NS_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP2_NS_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP2TA_NS_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP2TA_NS_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP2TA_NS_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP3_NS_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP3_NS_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP3_NS_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP3TA_NS_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP3TA_NS_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP3TA_NS_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitD_Fast_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitD_Fast_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitD_Fast_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitD_Fast_NS_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitD_Fast_NS_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitD_Fast_NS_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Trail_Distortion_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Trail_Distortion_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Trail_Distortion_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Trail_Lit1_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Trail_Lit1_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Trail_Lit1_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Trail_Lit1_NS_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Trail_Lit1_NS_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Trail_Lit1_NS_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Trail_Softblend_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Trail_Softblend_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Trail_Softblend_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Trail_Softblend_DL_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Trail_Softblend_DL_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Trail_Softblend_DL_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_BulletLine_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_BulletLine_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_BulletLine_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_BulletLine_Dist_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_BulletLine_Dist_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_BulletLine_Dist_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_BulletLine_Lit_VF\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_BulletLine_Lit_VF_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_BulletLine_Lit_VF_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP1_VF_EX\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP1_VF_EX_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP1_VF_EX_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP1TA_VF_EX\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP1TA_VF_EX_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP1TA_VF_EX_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP2_VF_EX\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP2_VF_EX_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP2_VF_EX_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP2TA_VF_EX\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP2TA_VF_EX_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP2TA_VF_EX_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP3_VF_EX\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP3_VF_EX_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP3_VF_EX_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitDP3TA_VF_EX\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitDP3TA_VF_EX_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitDP3TA_VF_EX_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_LitD_Fast_VF_EX\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_LitD_Fast_VF_EX_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_LitD_Fast_VF_EX_ps.fxc"
+    }
+  ],
+  "_info": "Edit .fxc files freely. To add a shader: add entry with \"name\", \"vertex_shader_file\", \"pixel_shader_file\". Order matters for repacking."
+}
