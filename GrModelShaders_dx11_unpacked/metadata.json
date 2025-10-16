@@ -1,0 +1,1853 @@
+{
+  "shaders": [
+    {
+      "name": "DeferredRenderingTone\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DeferredRenderingTone_vs.fxc",
+      "pixel_shader_file": "DeferredRenderingTone_ps.fxc"
+    },
+    {
+      "name": "DeferredRenderingTone_GVFog\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DeferredRenderingTone_GVFog_vs.fxc",
+      "pixel_shader_file": "DeferredRenderingTone_GVFog_ps.fxc"
+    },
+    {
+      "name": "RgbaCopy\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "RgbaCopy_vs.fxc",
+      "pixel_shader_file": "RgbaCopy_ps.fxc"
+    },
+    {
+      "name": "SSLighting2_Stencil\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLighting2_Stencil_vs.fxc",
+      "pixel_shader_file": "SSLighting2_Stencil_ps.fxc"
+    },
+    {
+      "name": "SSLighting2_ComplexityView\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLighting2_ComplexityView_vs.fxc",
+      "pixel_shader_file": "SSLighting2_ComplexityView_ps.fxc"
+    },
+    {
+      "name": "SSLighting2_Sun_LargestCascade\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLighting2_Sun_LargestCascade_vs.fxc",
+      "pixel_shader_file": "SSLighting2_Sun_LargestCascade_ps.fxc"
+    },
+    {
+      "name": "SSLighting2_SH_View\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLighting2_SH_View_vs.fxc",
+      "pixel_shader_file": "SSLighting2_SH_View_ps.fxc"
+    },
+    {
+      "name": "SSLighting2_SH_ComplexityView\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLighting2_SH_ComplexityView_vs.fxc",
+      "pixel_shader_file": "SSLighting2_SH_ComplexityView_ps.fxc"
+    },
+    {
+      "name": "SSLighting2_SH_ComplexityView2\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLighting2_SH_ComplexityView2_vs.fxc",
+      "pixel_shader_file": "SSLighting2_SH_ComplexityView2_ps.fxc"
+    },
+    {
+      "name": "SSLighting2_SH_ComputeCost\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLighting2_SH_ComputeCost_vs.fxc",
+      "pixel_shader_file": "SSLighting2_SH_ComputeCost_ps.fxc"
+    },
+    {
+      "name": "CloneWireframe\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "CloneWireframe_vs.fxc",
+      "pixel_shader_file": "CloneWireframe_ps.fxc"
+    },
+    {
+      "name": "GBuffersBase\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "GBuffersBase_vs.fxc",
+      "pixel_shader_file": "GBuffersBase_ps.fxc"
+    },
+    {
+      "name": "GBuffersBase2\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "GBuffersBase2_vs.fxc",
+      "pixel_shader_file": "GBuffersBase2_ps.fxc"
+    },
+    {
+      "name": "GBufferVelocity\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "GBufferVelocity_vs.fxc",
+      "pixel_shader_file": "GBufferVelocity_ps.fxc"
+    },
+    {
+      "name": "GBufferMaskedVelocity\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "GBufferMaskedVelocity_vs.fxc",
+      "pixel_shader_file": "GBufferMaskedVelocity_ps.fxc"
+    },
+    {
+      "name": "CloneDeferredBase\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "CloneDeferredBase_vs.fxc",
+      "pixel_shader_file": "CloneDeferredBase_ps.fxc"
+    },
+    {
+      "name": "foxDeferredDecal\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "foxDeferredDecal_vs.fxc",
+      "pixel_shader_file": "foxDeferredDecal_ps.fxc"
+    },
+    {
+      "name": "DecalOnModel_ln\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DecalOnModel_ln_vs.fxc",
+      "pixel_shader_file": "DecalOnModel_ln_ps.fxc"
+    },
+    {
+      "name": "Decal\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Decal_vs.fxc",
+      "pixel_shader_file": "Decal_ps.fxc"
+    },
+    {
+      "name": "Decal_User\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Decal_User_vs.fxc",
+      "pixel_shader_file": "Decal_User_ps.fxc"
+    },
+    {
+      "name": "SSDecal\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSDecal_vs.fxc",
+      "pixel_shader_file": "SSDecal_ps.fxc"
+    },
+    {
+      "name": "Decal2\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Decal2_vs.fxc",
+      "pixel_shader_file": "Decal2_ps.fxc"
+    },
+    {
+      "name": "Decal2_User\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Decal2_User_vs.fxc",
+      "pixel_shader_file": "Decal2_User_ps.fxc"
+    },
+    {
+      "name": "SSDecal2\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSDecal2_vs.fxc",
+      "pixel_shader_file": "SSDecal2_ps.fxc"
+    },
+    {
+      "name": "DecalOnModel\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DecalOnModel_vs.fxc",
+      "pixel_shader_file": "DecalOnModel_ps.fxc"
+    },
+    {
+      "name": "Decal2_ln\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Decal2_ln_vs.fxc",
+      "pixel_shader_file": "Decal2_ln_ps.fxc"
+    },
+    {
+      "name": "Decal2_User_ln\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Decal2_User_ln_vs.fxc",
+      "pixel_shader_file": "Decal2_User_ln_ps.fxc"
+    },
+    {
+      "name": "SSDecal2_ln\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSDecal2_ln_vs.fxc",
+      "pixel_shader_file": "SSDecal2_ln_ps.fxc"
+    },
+    {
+      "name": "SSDecal_ln\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSDecal_ln_vs.fxc",
+      "pixel_shader_file": "SSDecal_ln_ps.fxc"
+    },
+    {
+      "name": "Decal_MaterialTest\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Decal_MaterialTest_vs.fxc",
+      "pixel_shader_file": "Decal_MaterialTest_ps.fxc"
+    },
+    {
+      "name": "Decal_MaterialTest_ln\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Decal_MaterialTest_ln_vs.fxc",
+      "pixel_shader_file": "Decal_MaterialTest_ln_ps.fxc"
+    },
+    {
+      "name": "DeferredRendering\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DeferredRendering_vs.fxc",
+      "pixel_shader_file": "DeferredRendering_ps.fxc"
+    },
+    {
+      "name": "DeferredRendering_VolFog\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DeferredRendering_VolFog_vs.fxc",
+      "pixel_shader_file": "DeferredRendering_VolFog_ps.fxc"
+    },
+    {
+      "name": "DeferredRenderingFilmic\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DeferredRenderingFilmic_vs.fxc",
+      "pixel_shader_file": "DeferredRenderingFilmic_ps.fxc"
+    },
+    {
+      "name": "DeferredRenderingFilmic_VolFog\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DeferredRenderingFilmic_VolFog_vs.fxc",
+      "pixel_shader_file": "DeferredRenderingFilmic_VolFog_ps.fxc"
+    },
+    {
+      "name": "SunLight_DL_CS\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SunLight_DL_CS_vs.fxc",
+      "pixel_shader_file": "SunLight_DL_CS_ps.fxc"
+    },
+    {
+      "name": "SunLight_DL_CS_ES\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SunLight_DL_CS_ES_vs.fxc",
+      "pixel_shader_file": "SunLight_DL_CS_ES_ps.fxc"
+    },
+    {
+      "name": "SunLight_DL\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SunLight_DL_vs.fxc",
+      "pixel_shader_file": "SunLight_DL_ps.fxc"
+    },
+    {
+      "name": "SunLight_DL_ES\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SunLight_DL_ES_vs.fxc",
+      "pixel_shader_file": "SunLight_DL_ES_ps.fxc"
+    },
+    {
+      "name": "SunLight_ES\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SunLight_ES_vs.fxc",
+      "pixel_shader_file": "SunLight_ES_ps.fxc"
+    },
+    {
+      "name": "SSLighting2_Point\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLighting2_Point_vs.fxc",
+      "pixel_shader_file": "SSLighting2_Point_ps.fxc"
+    },
+    {
+      "name": "SSLighting2_Point_NoShadow\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLighting2_Point_NoShadow_vs.fxc",
+      "pixel_shader_file": "SSLighting2_Point_NoShadow_ps.fxc"
+    },
+    {
+      "name": "SSLighting2_Point_NoSpec\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLighting2_Point_NoSpec_vs.fxc",
+      "pixel_shader_file": "SSLighting2_Point_NoSpec_ps.fxc"
+    },
+    {
+      "name": "SSLighting2_Point_NoSpec_NoShadow\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLighting2_Point_NoSpec_NoShadow_vs.fxc",
+      "pixel_shader_file": "SSLighting2_Point_NoSpec_NoShadow_ps.fxc"
+    },
+    {
+      "name": "SSLighting2_Spot\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLighting2_Spot_vs.fxc",
+      "pixel_shader_file": "SSLighting2_Spot_ps.fxc"
+    },
+    {
+      "name": "SSLighting2_Spot_NoShadow\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLighting2_Spot_NoShadow_vs.fxc",
+      "pixel_shader_file": "SSLighting2_Spot_NoShadow_ps.fxc"
+    },
+    {
+      "name": "SSLighting2_Spot_NoSpec\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLighting2_Spot_NoSpec_vs.fxc",
+      "pixel_shader_file": "SSLighting2_Spot_NoSpec_ps.fxc"
+    },
+    {
+      "name": "SSLighting2_Spot_NoSpec_NoShadow\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLighting2_Spot_NoSpec_NoShadow_vs.fxc",
+      "pixel_shader_file": "SSLighting2_Spot_NoSpec_NoShadow_ps.fxc"
+    },
+    {
+      "name": "SSLighting2_Spot_Mask\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLighting2_Spot_Mask_vs.fxc",
+      "pixel_shader_file": "SSLighting2_Spot_Mask_ps.fxc"
+    },
+    {
+      "name": "SSLighting2_Spot_Mask_NShdw\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLighting2_Spot_Mask_NShdw_vs.fxc",
+      "pixel_shader_file": "SSLighting2_Spot_Mask_NShdw_ps.fxc"
+    },
+    {
+      "name": "SSLighting2_Spot_Mask_NSpec\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLighting2_Spot_Mask_NSpec_vs.fxc",
+      "pixel_shader_file": "SSLighting2_Spot_Mask_NSpec_ps.fxc"
+    },
+    {
+      "name": "SSLighting2_Spot_Mask_NSpec_NShdw\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLighting2_Spot_Mask_NSpec_NShdw_vs.fxc",
+      "pixel_shader_file": "SSLighting2_Spot_Mask_NSpec_NShdw_ps.fxc"
+    },
+    {
+      "name": "Lighting_Point_NA\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Lighting_Point_NA_vs.fxc",
+      "pixel_shader_file": "Lighting_Point_NA_ps.fxc"
+    },
+    {
+      "name": "Lighting_Point_NA_NShdw\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Lighting_Point_NA_NShdw_vs.fxc",
+      "pixel_shader_file": "Lighting_Point_NA_NShdw_ps.fxc"
+    },
+    {
+      "name": "Lighting_Point_NA_NoSpec\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Lighting_Point_NA_NoSpec_vs.fxc",
+      "pixel_shader_file": "Lighting_Point_NA_NoSpec_ps.fxc"
+    },
+    {
+      "name": "Lighting_Point_NA_NoSpec_NShdw\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Lighting_Point_NA_NoSpec_NShdw_vs.fxc",
+      "pixel_shader_file": "Lighting_Point_NA_NoSpec_NShdw_ps.fxc"
+    },
+    {
+      "name": "Lighting_Spot_NA\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Lighting_Spot_NA_vs.fxc",
+      "pixel_shader_file": "Lighting_Spot_NA_ps.fxc"
+    },
+    {
+      "name": "Lighting_Spot_NA_NShdw\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Lighting_Spot_NA_NShdw_vs.fxc",
+      "pixel_shader_file": "Lighting_Spot_NA_NShdw_ps.fxc"
+    },
+    {
+      "name": "Lighting_Spot_NA_NoSpec\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Lighting_Spot_NA_NoSpec_vs.fxc",
+      "pixel_shader_file": "Lighting_Spot_NA_NoSpec_ps.fxc"
+    },
+    {
+      "name": "Lighting_Spot_NA_NoSpec_NShdw\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Lighting_Spot_NA_NoSpec_NShdw_vs.fxc",
+      "pixel_shader_file": "Lighting_Spot_NA_NoSpec_NShdw_ps.fxc"
+    },
+    {
+      "name": "Lighting_Spot_NA_Mask\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Lighting_Spot_NA_Mask_vs.fxc",
+      "pixel_shader_file": "Lighting_Spot_NA_Mask_ps.fxc"
+    },
+    {
+      "name": "Lighting_Spot_NA_Mask_NShdw\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Lighting_Spot_NA_Mask_NShdw_vs.fxc",
+      "pixel_shader_file": "Lighting_Spot_NA_Mask_NShdw_ps.fxc"
+    },
+    {
+      "name": "Lighting_Spot_NA_Mask_NSpec\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Lighting_Spot_NA_Mask_NSpec_vs.fxc",
+      "pixel_shader_file": "Lighting_Spot_NA_Mask_NSpec_ps.fxc"
+    },
+    {
+      "name": "Lighting_Spot_NA_Mask_NSpec_NShdw\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Lighting_Spot_NA_Mask_NSpec_NShdw_vs.fxc",
+      "pixel_shader_file": "Lighting_Spot_NA_Mask_NSpec_NShdw_ps.fxc"
+    },
+    {
+      "name": "SSLighting2_SH_MultiBlend\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLighting2_SH_MultiBlend_vs.fxc",
+      "pixel_shader_file": "SSLighting2_SH_MultiBlend_ps.fxc"
+    },
+    {
+      "name": "SSLighting2_SH_MultiBlend_Type1\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLighting2_SH_MultiBlend_Type1_vs.fxc",
+      "pixel_shader_file": "SSLighting2_SH_MultiBlend_Type1_ps.fxc"
+    },
+    {
+      "name": "SSLighting2_SH_MultiBlend_Type2\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLighting2_SH_MultiBlend_Type2_vs.fxc",
+      "pixel_shader_file": "SSLighting2_SH_MultiBlend_Type2_ps.fxc"
+    },
+    {
+      "name": "SSLighting2_SH_MultiBlend_Type3\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLighting2_SH_MultiBlend_Type3_vs.fxc",
+      "pixel_shader_file": "SSLighting2_SH_MultiBlend_Type3_ps.fxc"
+    },
+    {
+      "name": "SSLighting2_SH_SkyLight_Encode\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLighting2_SH_SkyLight_Encode_vs.fxc",
+      "pixel_shader_file": "SSLighting2_SH_SkyLight_Encode_ps.fxc"
+    },
+    {
+      "name": "SSLighting2_SH_Occlusion\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLighting2_SH_Occlusion_vs.fxc",
+      "pixel_shader_file": "SSLighting2_SH_Occlusion_ps.fxc"
+    },
+    {
+      "name": "SSLighting2_SH_Occlusion_Type1\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLighting2_SH_Occlusion_Type1_vs.fxc",
+      "pixel_shader_file": "SSLighting2_SH_Occlusion_Type1_ps.fxc"
+    },
+    {
+      "name": "SSLighting2_SH_Occlusion_Type2\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLighting2_SH_Occlusion_Type2_vs.fxc",
+      "pixel_shader_file": "SSLighting2_SH_Occlusion_Type2_ps.fxc"
+    },
+    {
+      "name": "SSLighting2_SH_Occlusion_Type3\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLighting2_SH_Occlusion_Type3_vs.fxc",
+      "pixel_shader_file": "SSLighting2_SH_Occlusion_Type3_ps.fxc"
+    },
+    {
+      "name": "SH_SphereMap\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SH_SphereMap_vs.fxc",
+      "pixel_shader_file": "SH_SphereMap_ps.fxc"
+    },
+    {
+      "name": "SH_DynamicSphereMap\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SH_DynamicSphereMap_vs.fxc",
+      "pixel_shader_file": "SH_DynamicSphereMap_ps.fxc"
+    },
+    {
+      "name": "Stencil_Dummy\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Stencil_Dummy_vs.fxc",
+      "pixel_shader_file": "Stencil_Dummy_ps.fxc"
+    },
+    {
+      "name": "Stencil_Dummy_SkyLight\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Stencil_Dummy_SkyLight_vs.fxc",
+      "pixel_shader_file": "Stencil_Dummy_SkyLight_ps.fxc"
+    },
+    {
+      "name": "NewTerrain_PackedMaterial\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "NewTerrain_PackedMaterial_vs.fxc",
+      "pixel_shader_file": "NewTerrain_PackedMaterial_ps.fxc"
+    },
+    {
+      "name": "NewTerrain_PackedMaterial_Near\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "NewTerrain_PackedMaterial_Near_vs.fxc",
+      "pixel_shader_file": "NewTerrain_PackedMaterial_Near_ps.fxc"
+    },
+    {
+      "name": "NewTerrain_Depth\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "NewTerrain_Depth_vs.fxc",
+      "pixel_shader_file": "NewTerrain_Depth_ps.fxc"
+    },
+    {
+      "name": "NewTerrain_Shadow\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "NewTerrain_Shadow_vs.fxc",
+      "pixel_shader_file": "NewTerrain_Shadow_ps.fxc"
+    },
+    {
+      "name": "NewTerrain_Decal\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "NewTerrain_Decal_vs.fxc",
+      "pixel_shader_file": "NewTerrain_Decal_ps.fxc"
+    },
+    {
+      "name": "NewTerrain_DecalOrthogonal\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "NewTerrain_DecalOrthogonal_vs.fxc",
+      "pixel_shader_file": "NewTerrain_DecalOrthogonal_ps.fxc"
+    },
+    {
+      "name": "NewTerrain\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "NewTerrain_vs.fxc",
+      "pixel_shader_file": "NewTerrain_ps.fxc"
+    },
+    {
+      "name": "NewTerrain_Near\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "NewTerrain_Near_vs.fxc",
+      "pixel_shader_file": "NewTerrain_Near_ps.fxc"
+    },
+    {
+      "name": "NewTerrain_Far\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "NewTerrain_Far_vs.fxc",
+      "pixel_shader_file": "NewTerrain_Far_ps.fxc"
+    },
+    {
+      "name": "NewTerrain_Pseudo\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "NewTerrain_Pseudo_vs.fxc",
+      "pixel_shader_file": "NewTerrain_Pseudo_ps.fxc"
+    },
+    {
+      "name": "NewTerrain_SelfShadow\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "NewTerrain_SelfShadow_vs.fxc",
+      "pixel_shader_file": "NewTerrain_SelfShadow_ps.fxc"
+    },
+    {
+      "name": "NewTerrain_PackedMaterial_ln\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "NewTerrain_PackedMaterial_ln_vs.fxc",
+      "pixel_shader_file": "NewTerrain_PackedMaterial_ln_ps.fxc"
+    },
+    {
+      "name": "NewTerrain_PackedMaterial_Near_ln\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "NewTerrain_PackedMaterial_Near_ln_vs.fxc",
+      "pixel_shader_file": "NewTerrain_PackedMaterial_Near_ln_ps.fxc"
+    },
+    {
+      "name": "NewTerrain_Far_ln\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "NewTerrain_Far_ln_vs.fxc",
+      "pixel_shader_file": "NewTerrain_Far_ln_ps.fxc"
+    },
+    {
+      "name": "NewTerrain_Depth_ln\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "NewTerrain_Depth_ln_vs.fxc",
+      "pixel_shader_file": "NewTerrain_Depth_ln_ps.fxc"
+    },
+    {
+      "name": "NewTerrain_Shadow_ln\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "NewTerrain_Shadow_ln_vs.fxc",
+      "pixel_shader_file": "NewTerrain_Shadow_ln_ps.fxc"
+    },
+    {
+      "name": "NewTerrain_Decal_ln\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "NewTerrain_Decal_ln_vs.fxc",
+      "pixel_shader_file": "NewTerrain_Decal_ln_ps.fxc"
+    },
+    {
+      "name": "NewTerrain_DecalOrthogonal_ln\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "NewTerrain_DecalOrthogonal_ln_vs.fxc",
+      "pixel_shader_file": "NewTerrain_DecalOrthogonal_ln_ps.fxc"
+    },
+    {
+      "name": "NewTerrain_ln\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "NewTerrain_ln_vs.fxc",
+      "pixel_shader_file": "NewTerrain_ln_ps.fxc"
+    },
+    {
+      "name": "NewTerrain_Near_ln\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "NewTerrain_Near_ln_vs.fxc",
+      "pixel_shader_file": "NewTerrain_Near_ln_ps.fxc"
+    },
+    {
+      "name": "NewTerrain_Pseudo_ln\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "NewTerrain_Pseudo_ln_vs.fxc",
+      "pixel_shader_file": "NewTerrain_Pseudo_ln_ps.fxc"
+    },
+    {
+      "name": "NewTerrain_SelfShadow_ln\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "NewTerrain_SelfShadow_ln_vs.fxc",
+      "pixel_shader_file": "NewTerrain_SelfShadow_ln_ps.fxc"
+    },
+    {
+      "name": "OpticalCamouflage\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "OpticalCamouflage_vs.fxc",
+      "pixel_shader_file": "OpticalCamouflage_ps.fxc"
+    },
+    {
+      "name": "Thermography\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Thermography_vs.fxc",
+      "pixel_shader_file": "Thermography_ps.fxc"
+    },
+    {
+      "name": "CheckMarker\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "CheckMarker_vs.fxc",
+      "pixel_shader_file": "CheckMarker_ps.fxc"
+    },
+    {
+      "name": "CheckMarker2\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "CheckMarker2_vs.fxc",
+      "pixel_shader_file": "CheckMarker2_ps.fxc"
+    },
+    {
+      "name": "Fog_DrawVolume\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Fog_DrawVolume_vs.fxc",
+      "pixel_shader_file": "Fog_DrawVolume_ps.fxc"
+    },
+    {
+      "name": "ModelDebug\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "ModelDebug_vs.fxc",
+      "pixel_shader_file": "ModelDebug_ps.fxc"
+    },
+    {
+      "name": "ModelForward\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "ModelForward_vs.fxc",
+      "pixel_shader_file": "ModelForward_ps.fxc"
+    },
+    {
+      "name": "ModelForward_Shadow\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "ModelForward_Shadow_vs.fxc",
+      "pixel_shader_file": "ModelForward_Shadow_ps.fxc"
+    },
+    {
+      "name": "ModelForward_ShadowMaskRigid\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "ModelForward_ShadowMaskRigid_vs.fxc",
+      "pixel_shader_file": "ModelForward_ShadowMaskRigid_ps.fxc"
+    },
+    {
+      "name": "ModelForward_ShadowOpaque\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "ModelForward_ShadowOpaque_vs.fxc",
+      "pixel_shader_file": "ModelForward_ShadowOpaque_ps.fxc"
+    },
+    {
+      "name": "ModelForward_ShadowOpaqueRigid\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "ModelForward_ShadowOpaqueRigid_vs.fxc",
+      "pixel_shader_file": "ModelForward_ShadowOpaqueRigid_ps.fxc"
+    },
+    {
+      "name": "ModelForward_Shadow_Paraboloid\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "ModelForward_Shadow_Paraboloid_vs.fxc",
+      "pixel_shader_file": "ModelForward_Shadow_Paraboloid_ps.fxc"
+    },
+    {
+      "name": "ModelForward_ShadowMaskRigidP\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "ModelForward_ShadowMaskRigidP_vs.fxc",
+      "pixel_shader_file": "ModelForward_ShadowMaskRigidP_ps.fxc"
+    },
+    {
+      "name": "ModelForward_ShadowOpaqueP\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "ModelForward_ShadowOpaqueP_vs.fxc",
+      "pixel_shader_file": "ModelForward_ShadowOpaqueP_ps.fxc"
+    },
+    {
+      "name": "ModelForward_ShadowOpaqueRigidP\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "ModelForward_ShadowOpaqueRigidP_vs.fxc",
+      "pixel_shader_file": "ModelForward_ShadowOpaqueRigidP_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_nu\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_nu_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_nu_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_nu_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_nu_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_nu_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_nc\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_nc_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_nc_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_nc_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_nc_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_nc_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_nu_nc\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_nu_nc_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_nu_nc_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_4mt\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_4mt_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_4mt_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_4mt_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_4mt_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_4mt_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_3mt\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_3mt_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_3mt_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_3mt_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_3mt_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_3mt_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_3mt_nc\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_3mt_nc_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_3mt_nc_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_3mt_nc_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_3mt_nc_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_3mt_nc_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_3mt_nu\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_3mt_nu_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_3mt_nu_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_2mt\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_2mt_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_2mt_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_2mt_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_2mt_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_2mt_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_2mt_nc\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_2mt_nc_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_2mt_nc_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_2mt_nc_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_2mt_nc_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_2mt_nc_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_2mt_nu\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_2mt_nu_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_2mt_nu_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_2mt_nu_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_2mt_nu_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_2mt_nu_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_subnorm\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_subnorm_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_subnorm_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_subnorm_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_subnorm_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_subnorm_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_subnorm_nu\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_subnorm_nu_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_subnorm_nu_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_subnorm_nu_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_subnorm_nu_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_subnorm_nu_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_subnorm_nc\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_subnorm_nc_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_subnorm_nc_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_subnorm_nc_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_subnorm_nc_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_subnorm_nc_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_subnorm_nu_nc\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_subnorm_nu_nc_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_subnorm_nu_nc_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_subnorm_nmu\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_subnorm_nmu_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_subnorm_nmu_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_subnoranimm\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_subnoranimm_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_subnoranimm_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_sbnanim_tl\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_sbnanim_tl_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_sbnanim_tl_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_sbnanim_tl_nc\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_sbnanim_tl_nc_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_sbnanim_tl_nc_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_4mt_subnorm\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_4mt_subnorm_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_4mt_subnorm_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_3mt_subnorm\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_3mt_subnorm_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_3mt_subnorm_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_2mt_subnorm\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_2mt_subnorm_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_2mt_subnorm_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_2mt_subnorm_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_2mt_subnorm_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_2mt_subnorm_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_2mt_subnorm_nu\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_2mt_subnorm_nu_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_2mt_subnorm_nu_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_layer_bl\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_layer_bl_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_layer_bl_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_layer_sbl\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_layer_sbl_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_layer_sbl_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_layer_mul\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_layer_mul_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_layer_mul_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_layer_bl_mu\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_layer_bl_mu_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_layer_bl_mu_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_layer_bl_mu_nu\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_layer_bl_mu_nu_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_layer_bl_mu_nu_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_layer_sbl_mu\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_layer_sbl_mu_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_layer_sbl_mu_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_layer_sbl_mu_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_layer_sbl_mu_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_layer_sbl_mu_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_layer_sbl_mu_nu\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_layer_sbl_mu_nu_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_layer_sbl_mu_nu_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_layer_bl_2snm\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_layer_bl_2snm_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_layer_bl_2snm_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_layer_sbl_2snm\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_layer_sbl_2snm_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_layer_sbl_2snm_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_layer_bl_2snm_nu\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_layer_bl_2snm_nu_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_layer_bl_2snm_nu_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_ly_sbl_2snm_nu\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_ly_sbl_2snm_nu_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_ly_sbl_2snm_nu_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_ly_mul_2subnorm\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_ly_mul_2subnorm_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_ly_mul_2subnorm_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_ly_mul_2snm_nu\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_ly_mul_2snm_nu_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_ly_mul_2snm_nu_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_layerb_subnm_mu\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_layerb_subnm_mu_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_layerb_subnm_mu_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_layersb_subnm_mu\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_layersb_subnm_mu_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_layersb_subnm_mu_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_layersb_subnm_mu_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_layersb_subnm_mu_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_layersb_subnm_mu_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_layerb_snm_nlmu\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_layerb_snm_nlmu_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_layerb_snm_nlmu_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_layersb_snm_nlmu\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_layersb_snm_nlmu_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_layersb_snm_nlmu_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_layersb_snm\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_layersb_snm_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_layersb_snm_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_3mt_layerb\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_3mt_layerb_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_3mt_layerb_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_3mt_layerb_mu\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_3mt_layerb_mu_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_3mt_layerb_mu_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_2mt_layerb_mu\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_2mt_layerb_mu_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_2mt_layerb_mu_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_2mt_layerb_mu_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_2mt_layerb_mu_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_2mt_layerb_mu_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_4mt_layerm\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_4mt_layerm_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_4mt_layerm_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_4mt_layerm_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_4mt_layerm_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_4mt_layerm_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_3mt_layerm\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_3mt_layerm_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_3mt_layerm_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_3mt_layerm_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_3mt_layerm_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_3mt_layerm_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_2mt_layerm\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_2mt_layerm_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_2mt_layerm_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_2mt_layerm_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_2mt_layerm_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_2mt_layerm_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_incidence\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_incidence_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_incidence_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_incidence_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_incidence_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_incidence_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_incidence_nu\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_incidence_nu_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_incidence_nu_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_ic_nu_dirty\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_ic_nu_dirty_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_ic_nu_dirty_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_ic_nu_dirty_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_ic_nu_dirty_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_ic_nu_dirty_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_edge_trans\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_edge_trans_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_edge_trans_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_cloth\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_cloth_vs.fxc",
+      "pixel_shader_file": "fox3ddf_cloth_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_cloth_nc\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_cloth_nc_vs.fxc",
+      "pixel_shader_file": "fox3ddf_cloth_nc_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_dirty\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_dirty_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_dirty_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_dirty_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_dirty_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_dirty_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_4mt_dirty\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_4mt_dirty_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_4mt_dirty_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_4mt_dirty_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_4mt_dirty_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_4mt_dirty_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_3mt_dirty\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_3mt_dirty_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_3mt_dirty_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_3mt_dirty_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_3mt_dirty_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_3mt_dirty_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_2mt_dirty\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_2mt_dirty_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_2mt_dirty_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_2mt_dirty_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_2mt_dirty_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_2mt_dirty_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_layer_mul_dirty\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_layer_mul_dirty_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_layer_mul_dirty_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_layer_mul_dirty_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_layer_mul_dirty_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_layer_mul_dirty_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_ly_bl_4mt_dirty\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_ly_bl_4mt_dirty_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_ly_bl_4mt_dirty_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_ly_bl_4mt_dirty_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_ly_bl_4mt_dirty_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_ly_bl_4mt_dirty_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_ly_bl_3mt_dirty\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_ly_bl_3mt_dirty_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_ly_bl_3mt_dirty_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_ly_bl_2mt_dirty\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_ly_bl_2mt_dirty_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_ly_bl_2mt_dirty_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_ly_mul_4mt_dirty\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_ly_mul_4mt_dirty_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_ly_mul_4mt_dirty_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_ly_mul_4mt_dirty_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_ly_mul_4mt_dirty_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_ly_mul_4mt_dirty_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_ly_mul_3mt_dirty\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_ly_mul_3mt_dirty_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_ly_mul_3mt_dirty_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_ly_mul_3mt_dirty_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_ly_mul_3mt_dirty_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_ly_mul_3mt_dirty_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_ly_mul_2mt_dirty\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_ly_mul_2mt_dirty_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_ly_mul_2mt_dirty_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_ic_lyb_4mt_dirty\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_ic_lyb_4mt_dirty_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_ic_lyb_4mt_dirty_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_ic_lym_4mt_dirty\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_ic_lym_4mt_dirty_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_ic_lym_4mt_dirty_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_ic_lym_4mt_dirty_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_ic_lym_4mt_dirty_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_ic_lym_4mt_dirty_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_ic_lym_3mt_dirty\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_ic_lym_3mt_dirty_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_ic_lym_3mt_dirty_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_ic_lym_3mt_dirty_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_ic_lym_3mt_dirty_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_ic_lym_3mt_dirty_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_ic_4mt_sbn_dirty\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_ic_4mt_sbn_dirty_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_ic_4mt_sbn_dirty_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_ic_4mt_sbn_dirty_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_ic_4mt_sbn_dirty_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_ic_4mt_sbn_dirty_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_ic_3mt_sbn_dirty\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_ic_3mt_sbn_dirty_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_ic_3mt_sbn_dirty_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_ic_2mt_sbn_dirty\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_ic_2mt_sbn_dirty_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_ic_2mt_sbn_dirty_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_ic_2mt_sbn_dirty_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_ic_2mt_sbn_dirty_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_ic_2mt_sbn_dirty_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_ic_lyb_tn_3mt_dt\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_ic_lyb_tn_3mt_dt_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_ic_lyb_tn_3mt_dt_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_ic_lyb_tn_3mt_dt_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_ic_lyb_tn_3mt_dt_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_ic_lyb_tn_3mt_dt_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_subnorm_dirty\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_subnorm_dirty_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_subnorm_dirty_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_subnorm_dirty_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_subnorm_dirty_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_subnorm_dirty_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_cloth_dirty\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_cloth_dirty_vs.fxc",
+      "pixel_shader_file": "fox3ddf_cloth_dirty_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_cloth_nc_dirty\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_cloth_nc_dirty_vs.fxc",
+      "pixel_shader_file": "fox3ddf_cloth_nc_dirty_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_translucent\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_translucent_vs.fxc",
+      "pixel_shader_file": "fox3ddf_translucent_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_translucent_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_translucent_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_translucent_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_translucent_nc\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_translucent_nc_vs.fxc",
+      "pixel_shader_file": "fox3ddf_translucent_nc_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_translucent_nc_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_translucent_nc_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_translucent_nc_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_translucent_diralp_nc\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_translucent_diralp_nc_vs.fxc",
+      "pixel_shader_file": "fox3ddf_translucent_diralp_nc_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_lym_subnm\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_lym_subnm_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_lym_subnm_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_lym_subnm_nu\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_lym_subnm_nu_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_lym_subnm_nu_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_lym_subnm_dirty\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_lym_subnm_dirty_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_lym_subnm_dirty_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_lym_subnm_dirty_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_lym_subnm_dirty_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_lym_subnm_dirty_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_ic_lym_sbn_dirty\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_ic_lym_sbn_dirty_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_ic_lym_sbn_dirty_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_hair\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_hair_vs.fxc",
+      "pixel_shader_file": "fox3ddf_hair_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_hair_nc\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_hair_nc_vs.fxc",
+      "pixel_shader_file": "fox3ddf_hair_nc_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_micro_roughness\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_micro_roughness_vs.fxc",
+      "pixel_shader_file": "fox3ddf_micro_roughness_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_micro_roughness_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_micro_roughness_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_micro_roughness_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_micro_roughness_nu\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_micro_roughness_nu_vs.fxc",
+      "pixel_shader_file": "fox3ddf_micro_roughness_nu_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_micro_roughness_nu_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_micro_roughness_nu_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_micro_roughness_nu_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_micro_subnorm\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_micro_subnorm_vs.fxc",
+      "pixel_shader_file": "fox3ddf_micro_subnorm_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_skin\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_skin_vs.fxc",
+      "pixel_shader_file": "fox3ddf_skin_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_skin_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_skin_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_skin_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_skin_dirty\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_skin_dirty_vs.fxc",
+      "pixel_shader_file": "fox3ddf_skin_dirty_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_skin_dirty_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_skin_dirty_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_skin_dirty_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_skin_tension_dirty\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_skin_tension_dirty_vs.fxc",
+      "pixel_shader_file": "fox3ddf_skin_tension_dirty_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_skin_tension\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_skin_tension_vs.fxc",
+      "pixel_shader_file": "fox3ddf_skin_tension_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_skin_layer_dirty\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_skin_layer_dirty_vs.fxc",
+      "pixel_shader_file": "fox3ddf_skin_layer_dirty_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_skin_layer_dirty_nu\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_skin_layer_dirty_nu_vs.fxc",
+      "pixel_shader_file": "fox3ddf_skin_layer_dirty_nu_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_eye\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_eye_vs.fxc",
+      "pixel_shader_file": "fox3ddf_eye_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_eye_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_eye_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_eye_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_dirty_uvs\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_dirty_uvs_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_dirty_uvs_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_reflector\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_reflector_vs.fxc",
+      "pixel_shader_file": "fox3ddf_reflector_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_reflector_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_reflector_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_reflector_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_lightcover\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_lightcover_vs.fxc",
+      "pixel_shader_file": "fox3ddf_lightcover_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_lightcover_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_lightcover_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_lightcover_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_fast_leaf_diralp\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_fast_leaf_diralp_vs.fxc",
+      "pixel_shader_file": "fox3ddf_fast_leaf_diralp_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_fast_nrm_leaf_diralp\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_fast_nrm_leaf_diralp_vs.fxc",
+      "pixel_shader_file": "fox3ddf_fast_nrm_leaf_diralp_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_clone\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_clone_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_clone_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_clone_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_clone_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_clone_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_clone_nc\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_clone_nc_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_clone_nc_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_clone_nc_vr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_clone_nc_vr_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_clone_nc_vr_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_fast_wave_clone\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_fast_wave_clone_vs.fxc",
+      "pixel_shader_file": "fox3ddf_fast_wave_clone_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_fast_wave2_clone\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_fast_wave2_clone_vs.fxc",
+      "pixel_shader_file": "fox3ddf_fast_wave2_clone_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_fast_wave_diralp_clone\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_fast_wave_diralp_clone_vs.fxc",
+      "pixel_shader_file": "fox3ddf_fast_wave_diralp_clone_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_normal_wave_clone\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_normal_wave_clone_vs.fxc",
+      "pixel_shader_file": "fox3ddf_normal_wave_clone_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_normal_wave_diralp_clone\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_normal_wave_diralp_clone_vs.fxc",
+      "pixel_shader_file": "fox3ddf_normal_wave_diralp_clone_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_translucent_clone\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_translucent_clone_vs.fxc",
+      "pixel_shader_file": "fox3ddf_translucent_clone_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_translucent_nc_clone\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_translucent_nc_clone_vs.fxc",
+      "pixel_shader_file": "fox3ddf_translucent_nc_clone_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_translucent_diralp_nc_cl\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_translucent_diralp_nc_cl_vs.fxc",
+      "pixel_shader_file": "fox3ddf_translucent_diralp_nc_cl_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_decal\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_decal_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_decal_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_blin_decal_nrmuv\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_blin_decal_nrmuv_vs.fxc",
+      "pixel_shader_file": "fox3ddf_blin_decal_nrmuv_ps.fxc"
+    },
+    {
+      "name": "fox3ddc_blin_layer_mul_nu\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddc_blin_layer_mul_nu_vs.fxc",
+      "pixel_shader_file": "fox3ddc_blin_layer_mul_nu_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_tempolary_view\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_tempolary_view_vs.fxc",
+      "pixel_shader_file": "fox3ddf_tempolary_view_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_tempolary_albedoview\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_tempolary_albedoview_vs.fxc",
+      "pixel_shader_file": "fox3ddf_tempolary_albedoview_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_fast_wave\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_fast_wave_vs.fxc",
+      "pixel_shader_file": "fox3ddf_fast_wave_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_fast_wave2\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_fast_wave2_vs.fxc",
+      "pixel_shader_file": "fox3ddf_fast_wave2_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_fast_wave_diralp\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_fast_wave_diralp_vs.fxc",
+      "pixel_shader_file": "fox3ddf_fast_wave_diralp_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_normal_wave\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_normal_wave_vs.fxc",
+      "pixel_shader_file": "fox3ddf_normal_wave_ps.fxc"
+    },
+    {
+      "name": "fox3ddf_normal_wave_diralp\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3ddf_normal_wave_diralp_vs.fxc",
+      "pixel_shader_file": "fox3ddf_normal_wave_diralp_ps.fxc"
+    },
+    {
+      "name": "fox3dfw_blin\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3dfw_blin_vs.fxc",
+      "pixel_shader_file": "fox3dfw_blin_ps.fxc"
+    },
+    {
+      "name": "fox3dfw_blin_nu\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3dfw_blin_nu_vs.fxc",
+      "pixel_shader_file": "fox3dfw_blin_nu_ps.fxc"
+    },
+    {
+      "name": "fox3dfw_lambert\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3dfw_lambert_vs.fxc",
+      "pixel_shader_file": "fox3dfw_lambert_ps.fxc"
+    },
+    {
+      "name": "fox3dfw_constant\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3dfw_constant_vs.fxc",
+      "pixel_shader_file": "fox3dfw_constant_ps.fxc"
+    },
+    {
+      "name": "fox3dfw_constant_atuo\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3dfw_constant_atuo_vs.fxc",
+      "pixel_shader_file": "fox3dfw_constant_atuo_ps.fxc"
+    },
+    {
+      "name": "fox3dfw_constant_srgb\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3dfw_constant_srgb_vs.fxc",
+      "pixel_shader_file": "fox3dfw_constant_srgb_ps.fxc"
+    },
+    {
+      "name": "fox3dfw_constant_srgb_auto\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3dfw_constant_srgb_auto_vs.fxc",
+      "pixel_shader_file": "fox3dfw_constant_srgb_auto_ps.fxc"
+    },
+    {
+      "name": "fox3dfw_constant_ndr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3dfw_constant_ndr_vs.fxc",
+      "pixel_shader_file": "fox3dfw_constant_ndr_ps.fxc"
+    },
+    {
+      "name": "fox3dfw_constant_gradation_ndr\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3dfw_constant_gradation_ndr_vs.fxc",
+      "pixel_shader_file": "fox3dfw_constant_gradation_ndr_ps.fxc"
+    },
+    {
+      "name": "fox3dfw_cnst_atuo_ad\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3dfw_cnst_atuo_ad_vs.fxc",
+      "pixel_shader_file": "fox3dfw_cnst_atuo_ad_ps.fxc"
+    },
+    {
+      "name": "fox3dfw_cnst_srgb_ad\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3dfw_cnst_srgb_ad_vs.fxc",
+      "pixel_shader_file": "fox3dfw_cnst_srgb_ad_ps.fxc"
+    },
+    {
+      "name": "fox3dfw_cnst_srgb_auto_ad\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3dfw_cnst_srgb_auto_ad_vs.fxc",
+      "pixel_shader_file": "fox3dfw_cnst_srgb_auto_ad_ps.fxc"
+    },
+    {
+      "name": "fox3dfw_cnst_ndr_ad\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3dfw_cnst_ndr_ad_vs.fxc",
+      "pixel_shader_file": "fox3dfw_cnst_ndr_ad_ps.fxc"
+    },
+    {
+      "name": "fox3dfw_parallax_refrection\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3dfw_parallax_refrection_vs.fxc",
+      "pixel_shader_file": "fox3dfw_parallax_refrection_ps.fxc"
+    },
+    {
+      "name": "fox3dfw_glass\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3dfw_glass_vs.fxc",
+      "pixel_shader_file": "fox3dfw_glass_ps.fxc"
+    },
+    {
+      "name": "fox3dfw_glass_color\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3dfw_glass_color_vs.fxc",
+      "pixel_shader_file": "fox3dfw_glass_color_ps.fxc"
+    },
+    {
+      "name": "fox3dfw_glass_commonref\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3dfw_glass_commonref_vs.fxc",
+      "pixel_shader_file": "fox3dfw_glass_commonref_ps.fxc"
+    },
+    {
+      "name": "fox3dfw_glass_commonref_color\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3dfw_glass_commonref_color_vs.fxc",
+      "pixel_shader_file": "fox3dfw_glass_commonref_color_ps.fxc"
+    },
+    {
+      "name": "fox3dfw_water_cover\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3dfw_water_cover_vs.fxc",
+      "pixel_shader_file": "fox3dfw_water_cover_ps.fxc"
+    },
+    {
+      "name": "fox3dfw_lambert_prim\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3dfw_lambert_prim_vs.fxc",
+      "pixel_shader_file": "fox3dfw_lambert_prim_ps.fxc"
+    },
+    {
+      "name": "fox3dfw_glass_prim\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3dfw_glass_prim_vs.fxc",
+      "pixel_shader_file": "fox3dfw_glass_prim_ps.fxc"
+    },
+    {
+      "name": "fox3dfw_glass_color_prim\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3dfw_glass_color_prim_vs.fxc",
+      "pixel_shader_file": "fox3dfw_glass_color_prim_ps.fxc"
+    },
+    {
+      "name": "fox3dfw_glass_commonref_prim\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3dfw_glass_commonref_prim_vs.fxc",
+      "pixel_shader_file": "fox3dfw_glass_commonref_prim_ps.fxc"
+    },
+    {
+      "name": "fox3dfw_glass_cnmref_col_prim\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3dfw_glass_cnmref_col_prim_vs.fxc",
+      "pixel_shader_file": "fox3dfw_glass_cnmref_col_prim_ps.fxc"
+    },
+    {
+      "name": "fox3dfw_constant_srgb_auto_prim\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3dfw_constant_srgb_auto_prim_vs.fxc",
+      "pixel_shader_file": "fox3dfw_constant_srgb_auto_prim_ps.fxc"
+    },
+    {
+      "name": "fox3dfw_constant_ndr_prim\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3dfw_constant_ndr_prim_vs.fxc",
+      "pixel_shader_file": "fox3dfw_constant_ndr_prim_ps.fxc"
+    },
+    {
+      "name": "fox3dfw_cnst_srgb_auto_ad_prim\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3dfw_cnst_srgb_auto_ad_prim_vs.fxc",
+      "pixel_shader_file": "fox3dfw_cnst_srgb_auto_ad_prim_ps.fxc"
+    },
+    {
+      "name": "fox3dfw_cnst_ndr_ad_prim\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3dfw_cnst_ndr_ad_prim_vs.fxc",
+      "pixel_shader_file": "fox3dfw_cnst_ndr_ad_prim_ps.fxc"
+    },
+    {
+      "name": "fox3dfw_parallax_refrection_prim\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "fox3dfw_parallax_refrection_prim_vs.fxc",
+      "pixel_shader_file": "fox3dfw_parallax_refrection_prim_ps.fxc"
+    }
+  ],
+  "_info": "Edit .fxc files freely. To add a shader: add entry with \"name\", \"vertex_shader_file\", \"pixel_shader_file\". Order matters for repacking."
+}
