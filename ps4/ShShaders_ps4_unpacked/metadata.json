@@ -1,0 +1,317 @@
+{
+  "shaders": [
+    {
+      "name": "sh3dfw_parallax_refrection\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "sh3dfw_parallax_refrection_vs.fxc",
+      "pixel_shader_file": "sh3dfw_parallax_refrection_ps.fxc"
+    },
+    {
+      "name": "tpp3dfw_constant_scroll\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "tpp3dfw_constant_scroll_vs.fxc",
+      "pixel_shader_file": "tpp3dfw_constant_scroll_ps.fxc"
+    },
+    {
+      "name": "tpp3dfw_constant_sky\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "tpp3dfw_constant_sky_vs.fxc",
+      "pixel_shader_file": "tpp3dfw_constant_sky_ps.fxc"
+    },
+    {
+      "name": "tpp3dfw_constant_sky_ed\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "tpp3dfw_constant_sky_ed_vs.fxc",
+      "pixel_shader_file": "tpp3dfw_constant_sky_ed_ps.fxc"
+    },
+    {
+      "name": "Primitive_Liquid\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Primitive_Liquid_vs.fxc",
+      "pixel_shader_file": "Primitive_Liquid_ps.fxc"
+    },
+    {
+      "name": "Primitive_Liquid2Final\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Primitive_Liquid2Final_vs.fxc",
+      "pixel_shader_file": "Primitive_Liquid2Final_ps.fxc"
+    },
+    {
+      "name": "Primitive_Liquid2Final_hnm\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Primitive_Liquid2Final_hnm_vs.fxc",
+      "pixel_shader_file": "Primitive_Liquid2Final_hnm_ps.fxc"
+    },
+    {
+      "name": "Primitive_LiquidSprite\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Primitive_LiquidSprite_vs.fxc",
+      "pixel_shader_file": "Primitive_LiquidSprite_ps.fxc"
+    },
+    {
+      "name": "Primitive_LiquidSprite_Sdw\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Primitive_LiquidSprite_Sdw_vs.fxc",
+      "pixel_shader_file": "Primitive_LiquidSprite_Sdw_ps.fxc"
+    },
+    {
+      "name": "Primitive_LiqSprt2Final\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Primitive_LiqSprt2Final_vs.fxc",
+      "pixel_shader_file": "Primitive_LiqSprt2Final_ps.fxc"
+    },
+    {
+      "name": "Primitive_LiqSprt2Final_hnm\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Primitive_LiqSprt2Final_hnm_vs.fxc",
+      "pixel_shader_file": "Primitive_LiqSprt2Final_hnm_ps.fxc"
+    },
+    {
+      "name": "Prim_Poly_ScalableScroll\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_Poly_ScalableScroll_vs.fxc",
+      "pixel_shader_file": "Prim_Poly_ScalableScroll_ps.fxc"
+    },
+    {
+      "name": "Prim_ShFxGlassMaterial\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Prim_ShFxGlassMaterial_vs.fxc",
+      "pixel_shader_file": "Prim_ShFxGlassMaterial_ps.fxc"
+    },
+    {
+      "name": "Draw2D_TppLensFlare\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_TppLensFlare_vs.fxc",
+      "pixel_shader_file": "Draw2D_TppLensFlare_ps.fxc"
+    },
+    {
+      "name": "Draw2D_TppLensFlareArcAlpha\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_TppLensFlareArcAlpha_vs.fxc",
+      "pixel_shader_file": "Draw2D_TppLensFlareArcAlpha_ps.fxc"
+    },
+    {
+      "name": "Draw2D_TppLensFlareField\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_TppLensFlareField_vs.fxc",
+      "pixel_shader_file": "Draw2D_TppLensFlareField_ps.fxc"
+    },
+    {
+      "name": "Draw2D_TppLensFlareAsyField\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_TppLensFlareAsyField_vs.fxc",
+      "pixel_shader_file": "Draw2D_TppLensFlareAsyField_ps.fxc"
+    },
+    {
+      "name": "Draw2D_TppLensFlareShapeMsk\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_TppLensFlareShapeMsk_vs.fxc",
+      "pixel_shader_file": "Draw2D_TppLensFlareShapeMsk_ps.fxc"
+    },
+    {
+      "name": "VolFog_TppVolFog\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "VolFog_TppVolFog_vs.fxc",
+      "pixel_shader_file": "VolFog_TppVolFog_ps.fxc"
+    },
+    {
+      "name": "VolFog_TppVolFog_Area\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "VolFog_TppVolFog_Area_vs.fxc",
+      "pixel_shader_file": "VolFog_TppVolFog_Area_ps.fxc"
+    },
+    {
+      "name": "Draw2D_TppCameraBloodDrops\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_TppCameraBloodDrops_vs.fxc",
+      "pixel_shader_file": "Draw2D_TppCameraBloodDrops_ps.fxc"
+    },
+    {
+      "name": "Draw2D_ShBrightPass\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_ShBrightPass_vs.fxc",
+      "pixel_shader_file": "Draw2D_ShBrightPass_ps.fxc"
+    },
+    {
+      "name": "Draw2D_ShKawase\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_ShKawase_vs.fxc",
+      "pixel_shader_file": "Draw2D_ShKawase_ps.fxc"
+    },
+    {
+      "name": "Draw2D_ShGaussian1D_X\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_ShGaussian1D_X_vs.fxc",
+      "pixel_shader_file": "Draw2D_ShGaussian1D_X_ps.fxc"
+    },
+    {
+      "name": "Draw2D_ShGaussian1D_Y\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_ShGaussian1D_Y_vs.fxc",
+      "pixel_shader_file": "Draw2D_ShGaussian1D_Y_ps.fxc"
+    },
+    {
+      "name": "Draw2D_ShGaussian2D\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_ShGaussian2D_vs.fxc",
+      "pixel_shader_file": "Draw2D_ShGaussian2D_ps.fxc"
+    },
+    {
+      "name": "Draw2D_ShGaussian2DKernel\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_ShGaussian2DKernel_vs.fxc",
+      "pixel_shader_file": "Draw2D_ShGaussian2DKernel_ps.fxc"
+    },
+    {
+      "name": "Draw2D_ShMistScatteringStep1\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_ShMistScatteringStep1_vs.fxc",
+      "pixel_shader_file": "Draw2D_ShMistScatteringStep1_ps.fxc"
+    },
+    {
+      "name": "Draw2D_ShMistScatteringStep2_1\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_ShMistScatteringStep2_1_vs.fxc",
+      "pixel_shader_file": "Draw2D_ShMistScatteringStep2_1_ps.fxc"
+    },
+    {
+      "name": "Draw2D_ShMistScatteringStep2_2\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_ShMistScatteringStep2_2_vs.fxc",
+      "pixel_shader_file": "Draw2D_ShMistScatteringStep2_2_ps.fxc"
+    },
+    {
+      "name": "Draw2D_ShMistScatteringStep3\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_ShMistScatteringStep3_vs.fxc",
+      "pixel_shader_file": "Draw2D_ShMistScatteringStep3_ps.fxc"
+    },
+    {
+      "name": "Draw2D_ShLightScattering01\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_ShLightScattering01_vs.fxc",
+      "pixel_shader_file": "Draw2D_ShLightScattering01_ps.fxc"
+    },
+    {
+      "name": "Draw2D_ShAreaVolumetricFog\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_ShAreaVolumetricFog_vs.fxc",
+      "pixel_shader_file": "Draw2D_ShAreaVolumetricFog_ps.fxc"
+    },
+    {
+      "name": "Draw2D_ShRaymarchingFog01\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_ShRaymarchingFog01_vs.fxc",
+      "pixel_shader_file": "Draw2D_ShRaymarchingFog01_ps.fxc"
+    },
+    {
+      "name": "Draw2D_ShRaymarchingFog02\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_ShRaymarchingFog02_vs.fxc",
+      "pixel_shader_file": "Draw2D_ShRaymarchingFog02_ps.fxc"
+    },
+    {
+      "name": "Draw2D_ShRaymarchingFog02_a\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_ShRaymarchingFog02_a_vs.fxc",
+      "pixel_shader_file": "Draw2D_ShRaymarchingFog02_a_ps.fxc"
+    },
+    {
+      "name": "Draw2D_ShRaymarchingFog03\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_ShRaymarchingFog03_vs.fxc",
+      "pixel_shader_file": "Draw2D_ShRaymarchingFog03_ps.fxc"
+    },
+    {
+      "name": "Draw2D_ShSpotLightReflection\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_ShSpotLightReflection_vs.fxc",
+      "pixel_shader_file": "Draw2D_ShSpotLightReflection_ps.fxc"
+    },
+    {
+      "name": "Draw2D_ShSpotLightReflection2\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_ShSpotLightReflection2_vs.fxc",
+      "pixel_shader_file": "Draw2D_ShSpotLightReflection2_ps.fxc"
+    },
+    {
+      "name": "Draw2D_ShSpotLightReflection3\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_ShSpotLightReflection3_vs.fxc",
+      "pixel_shader_file": "Draw2D_ShSpotLightReflection3_ps.fxc"
+    },
+    {
+      "name": "Draw2D_ShScreenDistortion\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_ShScreenDistortion_vs.fxc",
+      "pixel_shader_file": "Draw2D_ShScreenDistortion_ps.fxc"
+    },
+    {
+      "name": "Draw2D_ShSubliminalNoise\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_ShSubliminalNoise_vs.fxc",
+      "pixel_shader_file": "Draw2D_ShSubliminalNoise_ps.fxc"
+    },
+    {
+      "name": "Draw2D_ShSubliminalString\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_ShSubliminalString_vs.fxc",
+      "pixel_shader_file": "Draw2D_ShSubliminalString_ps.fxc"
+    },
+    {
+      "name": "Draw2D_ShFilmGrain\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_ShFilmGrain_vs.fxc",
+      "pixel_shader_file": "Draw2D_ShFilmGrain_ps.fxc"
+    },
+    {
+      "name": "Draw2D_ShFilmGrain2\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_ShFilmGrain2_vs.fxc",
+      "pixel_shader_file": "Draw2D_ShFilmGrain2_ps.fxc"
+    },
+    {
+      "name": "Draw2D_ShFullScreenBlur\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_ShFullScreenBlur_vs.fxc",
+      "pixel_shader_file": "Draw2D_ShFullScreenBlur_ps.fxc"
+    },
+    {
+      "name": "Draw2D_ShColourBandingCanceller\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_ShColourBandingCanceller_vs.fxc",
+      "pixel_shader_file": "Draw2D_ShColourBandingCanceller_ps.fxc"
+    },
+    {
+      "name": "Sky_Draw_Tpp\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Sky_Draw_Tpp_vs.fxc",
+      "pixel_shader_file": "Sky_Draw_Tpp_ps.fxc"
+    },
+    {
+      "name": "Sky_Draw_TppBaked\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Sky_Draw_TppBaked_vs.fxc",
+      "pixel_shader_file": "Sky_Draw_TppBaked_ps.fxc"
+    },
+    {
+      "name": "DR_VolFog_TppTonemap\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DR_VolFog_TppTonemap_vs.fxc",
+      "pixel_shader_file": "DR_VolFog_TppTonemap_ps.fxc"
+    },
+    {
+      "name": "DR_TonemapRainFilter\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DR_TonemapRainFilter_vs.fxc",
+      "pixel_shader_file": "DR_TonemapRainFilter_ps.fxc"
+    },
+    {
+      "name": "DR_TonemapRainFilter_NoIR\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DR_TonemapRainFilter_NoIR_vs.fxc",
+      "pixel_shader_file": "DR_TonemapRainFilter_NoIR_ps.fxc"
+    }
+  ],
+  "_info": "Edit .fxc files freely. To add a shader: add entry with \"name\", \"vertex_shader_file\", \"pixel_shader_file\". Order matters for repacking."
+}
