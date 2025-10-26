@@ -1,0 +1,893 @@
+{
+  "shaders": [
+    {
+      "name": "ScreenCaptureStrech\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "ScreenCaptureStrech_vs.fxc",
+      "pixel_shader_file": "ScreenCaptureStrech_ps.fxc"
+    },
+    {
+      "name": "Primitive\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Primitive_vs.fxc",
+      "pixel_shader_file": "Primitive_ps.fxc"
+    },
+    {
+      "name": "Draw2D\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_vs.fxc",
+      "pixel_shader_file": "Draw2D_ps.fxc"
+    },
+    {
+      "name": "Draw2D_Border\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_Border_vs.fxc",
+      "pixel_shader_file": "Draw2D_Border_ps.fxc"
+    },
+    {
+      "name": "Draw2D_WithFilter\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_WithFilter_vs.fxc",
+      "pixel_shader_file": "Draw2D_WithFilter_ps.fxc"
+    },
+    {
+      "name": "Draw2D_Ui\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_Ui_vs.fxc",
+      "pixel_shader_file": "Draw2D_Ui_ps.fxc"
+    },
+    {
+      "name": "Draw2D_Ui_BL\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_Ui_BL_vs.fxc",
+      "pixel_shader_file": "Draw2D_Ui_BL_ps.fxc"
+    },
+    {
+      "name": "Draw2D_Ui_ADD\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_Ui_ADD_vs.fxc",
+      "pixel_shader_file": "Draw2D_Ui_ADD_ps.fxc"
+    },
+    {
+      "name": "Draw2D_Ui_MUL\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_Ui_MUL_vs.fxc",
+      "pixel_shader_file": "Draw2D_Ui_MUL_ps.fxc"
+    },
+    {
+      "name": "Draw2D_Ui2\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_Ui2_vs.fxc",
+      "pixel_shader_file": "Draw2D_Ui2_ps.fxc"
+    },
+    {
+      "name": "Draw2D_Ui2_BL\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_Ui2_BL_vs.fxc",
+      "pixel_shader_file": "Draw2D_Ui2_BL_ps.fxc"
+    },
+    {
+      "name": "Draw2D_Ui2_ADD\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_Ui2_ADD_vs.fxc",
+      "pixel_shader_file": "Draw2D_Ui2_ADD_ps.fxc"
+    },
+    {
+      "name": "Draw2D_Ui2_MUL\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_Ui2_MUL_vs.fxc",
+      "pixel_shader_file": "Draw2D_Ui2_MUL_ps.fxc"
+    },
+    {
+      "name": "Draw2D_Ui2_NoBase\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_Ui2_NoBase_vs.fxc",
+      "pixel_shader_file": "Draw2D_Ui2_NoBase_ps.fxc"
+    },
+    {
+      "name": "Draw2D_Ui2_BL_CenteringScreen\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_Ui2_BL_CenteringScreen_vs.fxc",
+      "pixel_shader_file": "Draw2D_Ui2_BL_CenteringScreen_ps.fxc"
+    },
+    {
+      "name": "Draw2D_Ui2_BL_LOD_SC\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_Ui2_BL_LOD_SC_vs.fxc",
+      "pixel_shader_file": "Draw2D_Ui2_BL_LOD_SC_ps.fxc"
+    },
+    {
+      "name": "Draw2D_Ui2_ADD_LOD_SC\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_Ui2_ADD_LOD_SC_vs.fxc",
+      "pixel_shader_file": "Draw2D_Ui2_ADD_LOD_SC_ps.fxc"
+    },
+    {
+      "name": "Draw2D_Ui2_MUL_LOD_SC\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_Ui2_MUL_LOD_SC_vs.fxc",
+      "pixel_shader_file": "Draw2D_Ui2_MUL_LOD_SC_ps.fxc"
+    },
+    {
+      "name": "Draw2D_Ui2_BL_LOD_MK\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_Ui2_BL_LOD_MK_vs.fxc",
+      "pixel_shader_file": "Draw2D_Ui2_BL_LOD_MK_ps.fxc"
+    },
+    {
+      "name": "Draw2D_Ui2_ADD_LOD_MK\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_Ui2_ADD_LOD_MK_vs.fxc",
+      "pixel_shader_file": "Draw2D_Ui2_ADD_LOD_MK_ps.fxc"
+    },
+    {
+      "name": "Draw2D_Ui2_MUL_LOD_MK\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_Ui2_MUL_LOD_MK_vs.fxc",
+      "pixel_shader_file": "Draw2D_Ui2_MUL_LOD_MK_ps.fxc"
+    },
+    {
+      "name": "Draw2D_Ui2_LOD_LY\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_Ui2_LOD_LY_vs.fxc",
+      "pixel_shader_file": "Draw2D_Ui2_LOD_LY_ps.fxc"
+    },
+    {
+      "name": "Draw2D_Ui2_LOD_LY_SC\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_Ui2_LOD_LY_SC_vs.fxc",
+      "pixel_shader_file": "Draw2D_Ui2_LOD_LY_SC_ps.fxc"
+    },
+    {
+      "name": "Draw2D_Ui2_LOD_LY_MK\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_Ui2_LOD_LY_MK_vs.fxc",
+      "pixel_shader_file": "Draw2D_Ui2_LOD_LY_MK_ps.fxc"
+    },
+    {
+      "name": "Draw2D_Ui2_LOD_LY_MK_SC\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_Ui2_LOD_LY_MK_SC_vs.fxc",
+      "pixel_shader_file": "Draw2D_Ui2_LOD_LY_MK_SC_ps.fxc"
+    },
+    {
+      "name": "Draw2D_Ui2_NoBase_LOD_SC\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_Ui2_NoBase_LOD_SC_vs.fxc",
+      "pixel_shader_file": "Draw2D_Ui2_NoBase_LOD_SC_ps.fxc"
+    },
+    {
+      "name": "Draw2D_BlendNormal\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_BlendNormal_vs.fxc",
+      "pixel_shader_file": "Draw2D_BlendNormal_ps.fxc"
+    },
+    {
+      "name": "Draw2D_BlendNormal_ln\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_BlendNormal_ln_vs.fxc",
+      "pixel_shader_file": "Draw2D_BlendNormal_ln_ps.fxc"
+    },
+    {
+      "name": "Draw2D_BlendRoughness\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_BlendRoughness_vs.fxc",
+      "pixel_shader_file": "Draw2D_BlendRoughness_ps.fxc"
+    },
+    {
+      "name": "Draw2D_EncodeNormal\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Draw2D_EncodeNormal_vs.fxc",
+      "pixel_shader_file": "Draw2D_EncodeNormal_ps.fxc"
+    },
+    {
+      "name": "blur_Gaussian1D_X\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "blur_Gaussian1D_X_vs.fxc",
+      "pixel_shader_file": "blur_Gaussian1D_X_ps.fxc"
+    },
+    {
+      "name": "blur_Gaussian1D_Y\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "blur_Gaussian1D_Y_vs.fxc",
+      "pixel_shader_file": "blur_Gaussian1D_Y_ps.fxc"
+    },
+    {
+      "name": "CopyReductionX4\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "CopyReductionX4_vs.fxc",
+      "pixel_shader_file": "CopyReductionX4_ps.fxc"
+    },
+    {
+      "name": "SSLensFlarePass1\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLensFlarePass1_vs.fxc",
+      "pixel_shader_file": "SSLensFlarePass1_ps.fxc"
+    },
+    {
+      "name": "SSLensFlarePass2\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSLensFlarePass2_vs.fxc",
+      "pixel_shader_file": "SSLensFlarePass2_ps.fxc"
+    },
+    {
+      "name": "PointUpscale\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "PointUpscale_vs.fxc",
+      "pixel_shader_file": "PointUpscale_ps.fxc"
+    },
+    {
+      "name": "SH_ReflectMap\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SH_ReflectMap_vs.fxc",
+      "pixel_shader_file": "SH_ReflectMap_ps.fxc"
+    },
+    {
+      "name": "SH_FresnelMap\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SH_FresnelMap_vs.fxc",
+      "pixel_shader_file": "SH_FresnelMap_ps.fxc"
+    },
+    {
+      "name": "Fxaa\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Fxaa_vs.fxc",
+      "pixel_shader_file": "Fxaa_ps.fxc"
+    },
+    {
+      "name": "blur_Gaussian1D_Bilateral_X\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "blur_Gaussian1D_Bilateral_X_vs.fxc",
+      "pixel_shader_file": "blur_Gaussian1D_Bilateral_X_ps.fxc"
+    },
+    {
+      "name": "blur_Gaussian1D_Bilateral_Y\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "blur_Gaussian1D_Bilateral_Y_vs.fxc",
+      "pixel_shader_file": "blur_Gaussian1D_Bilateral_Y_ps.fxc"
+    },
+    {
+      "name": "SSAOLineIntegrals\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSAOLineIntegrals_vs.fxc",
+      "pixel_shader_file": "SSAOLineIntegrals_ps.fxc"
+    },
+    {
+      "name": "SSAOAlphaToRGB\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSAOAlphaToRGB_vs.fxc",
+      "pixel_shader_file": "SSAOAlphaToRGB_ps.fxc"
+    },
+    {
+      "name": "blur_box2D\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "blur_box2D_vs.fxc",
+      "pixel_shader_file": "blur_box2D_ps.fxc"
+    },
+    {
+      "name": "blur_kawase\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "blur_kawase_vs.fxc",
+      "pixel_shader_file": "blur_kawase_ps.fxc"
+    },
+    {
+      "name": "blur_kawase_copy\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "blur_kawase_copy_vs.fxc",
+      "pixel_shader_file": "blur_kawase_copy_ps.fxc"
+    },
+    {
+      "name": "TonemapBrightpass\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "TonemapBrightpass_vs.fxc",
+      "pixel_shader_file": "TonemapBrightpass_ps.fxc"
+    },
+    {
+      "name": "Tonemap\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Tonemap_vs.fxc",
+      "pixel_shader_file": "Tonemap_ps.fxc"
+    },
+    {
+      "name": "Tonemap_Lum_Lacc\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Tonemap_Lum_Lacc_vs.fxc",
+      "pixel_shader_file": "Tonemap_Lum_Lacc_ps.fxc"
+    },
+    {
+      "name": "Tonemap_1DLUT\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Tonemap_1DLUT_vs.fxc",
+      "pixel_shader_file": "Tonemap_1DLUT_ps.fxc"
+    },
+    {
+      "name": "Tonemap_Lum\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Tonemap_Lum_vs.fxc",
+      "pixel_shader_file": "Tonemap_Lum_ps.fxc"
+    },
+    {
+      "name": "ColorCorrection\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "ColorCorrection_vs.fxc",
+      "pixel_shader_file": "ColorCorrection_ps.fxc"
+    },
+    {
+      "name": "ColorCorrection_1DLUT\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "ColorCorrection_1DLUT_vs.fxc",
+      "pixel_shader_file": "ColorCorrection_1DLUT_ps.fxc"
+    },
+    {
+      "name": "ColorCorrection_DrawLut_Tex\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "ColorCorrection_DrawLut_Tex_vs.fxc",
+      "pixel_shader_file": "ColorCorrection_DrawLut_Tex_ps.fxc"
+    },
+    {
+      "name": "ColorCorrection_DrawLut_Gen\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "ColorCorrection_DrawLut_Gen_vs.fxc",
+      "pixel_shader_file": "ColorCorrection_DrawLut_Gen_ps.fxc"
+    },
+    {
+      "name": "ColorCorrection_BlndLut_Tex_Tex\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "ColorCorrection_BlndLut_Tex_Tex_vs.fxc",
+      "pixel_shader_file": "ColorCorrection_BlndLut_Tex_Tex_ps.fxc"
+    },
+    {
+      "name": "ColorCorrection_BlndLut_Tex_Gen\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "ColorCorrection_BlndLut_Tex_Gen_vs.fxc",
+      "pixel_shader_file": "ColorCorrection_BlndLut_Tex_Gen_ps.fxc"
+    },
+    {
+      "name": "ColorCorrection_BlndLut_Gen_Gen\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "ColorCorrection_BlndLut_Gen_Gen_vs.fxc",
+      "pixel_shader_file": "ColorCorrection_BlndLut_Gen_Gen_ps.fxc"
+    },
+    {
+      "name": "DepthOfFieldBlurRatio\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DepthOfFieldBlurRatio_vs.fxc",
+      "pixel_shader_file": "DepthOfFieldBlurRatio_ps.fxc"
+    },
+    {
+      "name": "DepthOfFieldBlurRatio_Downsample\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DepthOfFieldBlurRatio_Downsample_vs.fxc",
+      "pixel_shader_file": "DepthOfFieldBlurRatio_Downsample_ps.fxc"
+    },
+    {
+      "name": "DOF_0_ImageBlend\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DOF_0_ImageBlend_vs.fxc",
+      "pixel_shader_file": "DOF_0_ImageBlend_ps.fxc"
+    },
+    {
+      "name": "DOF_0_ImageBlend_NoFrontBokeh\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DOF_0_ImageBlend_NoFrontBokeh_vs.fxc",
+      "pixel_shader_file": "DOF_0_ImageBlend_NoFrontBokeh_ps.fxc"
+    },
+    {
+      "name": "DOF_0_BlurRatio_Downsample\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DOF_0_BlurRatio_Downsample_vs.fxc",
+      "pixel_shader_file": "DOF_0_BlurRatio_Downsample_ps.fxc"
+    },
+    {
+      "name": "DOF_0_BlurLensFarMultiPass\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DOF_0_BlurLensFarMultiPass_vs.fxc",
+      "pixel_shader_file": "DOF_0_BlurLensFarMultiPass_ps.fxc"
+    },
+    {
+      "name": "DOF_0_BlurLensNearMultiPass\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DOF_0_BlurLensNearMultiPass_vs.fxc",
+      "pixel_shader_file": "DOF_0_BlurLensNearMultiPass_ps.fxc"
+    },
+    {
+      "name": "DOF_0_DebugImageBlend\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DOF_0_DebugImageBlend_vs.fxc",
+      "pixel_shader_file": "DOF_0_DebugImageBlend_ps.fxc"
+    },
+    {
+      "name": "DOF_0_UpSample\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DOF_0_UpSample_vs.fxc",
+      "pixel_shader_file": "DOF_0_UpSample_ps.fxc"
+    },
+    {
+      "name": "DOF_OnlyNear_CoCInitialization\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DOF_OnlyNear_CoCInitialization_vs.fxc",
+      "pixel_shader_file": "DOF_OnlyNear_CoCInitialization_ps.fxc"
+    },
+    {
+      "name": "DOF_OnlyNear_LargeBlur\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DOF_OnlyNear_LargeBlur_vs.fxc",
+      "pixel_shader_file": "DOF_OnlyNear_LargeBlur_ps.fxc"
+    },
+    {
+      "name": "DOF_OnlyNear_NearCoC\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DOF_OnlyNear_NearCoC_vs.fxc",
+      "pixel_shader_file": "DOF_OnlyNear_NearCoC_ps.fxc"
+    },
+    {
+      "name": "DOF_OnlyNear_SmallBlur\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DOF_OnlyNear_SmallBlur_vs.fxc",
+      "pixel_shader_file": "DOF_OnlyNear_SmallBlur_ps.fxc"
+    },
+    {
+      "name": "DOF_OnlyNear_Composition\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DOF_OnlyNear_Composition_vs.fxc",
+      "pixel_shader_file": "DOF_OnlyNear_Composition_ps.fxc"
+    },
+    {
+      "name": "ColorDownsample\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "ColorDownsample_vs.fxc",
+      "pixel_shader_file": "ColorDownsample_ps.fxc"
+    },
+    {
+      "name": "HalfDownSample\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "HalfDownSample_vs.fxc",
+      "pixel_shader_file": "HalfDownSample_ps.fxc"
+    },
+    {
+      "name": "TemporalAA\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "TemporalAA_vs.fxc",
+      "pixel_shader_file": "TemporalAA_ps.fxc"
+    },
+    {
+      "name": "Sky_Inscatter1\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Sky_Inscatter1_vs.fxc",
+      "pixel_shader_file": "Sky_Inscatter1_ps.fxc"
+    },
+    {
+      "name": "Sky_Transmittance\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Sky_Transmittance_vs.fxc",
+      "pixel_shader_file": "Sky_Transmittance_ps.fxc"
+    },
+    {
+      "name": "Sky_Extract\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Sky_Extract_vs.fxc",
+      "pixel_shader_file": "Sky_Extract_ps.fxc"
+    },
+    {
+      "name": "Sky_CopyInscatter1\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Sky_CopyInscatter1_vs.fxc",
+      "pixel_shader_file": "Sky_CopyInscatter1_ps.fxc"
+    },
+    {
+      "name": "Sky_CopyInscatterN\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Sky_CopyInscatterN_vs.fxc",
+      "pixel_shader_file": "Sky_CopyInscatterN_ps.fxc"
+    },
+    {
+      "name": "Sky_CopyIrradiance\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Sky_CopyIrradiance_vs.fxc",
+      "pixel_shader_file": "Sky_CopyIrradiance_ps.fxc"
+    },
+    {
+      "name": "Sky_InscatterN\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Sky_InscatterN_vs.fxc",
+      "pixel_shader_file": "Sky_InscatterN_ps.fxc"
+    },
+    {
+      "name": "Sky_InscatterS\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Sky_InscatterS_vs.fxc",
+      "pixel_shader_file": "Sky_InscatterS_ps.fxc"
+    },
+    {
+      "name": "Sky_Irradiance1\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Sky_Irradiance1_vs.fxc",
+      "pixel_shader_file": "Sky_Irradiance1_ps.fxc"
+    },
+    {
+      "name": "Sky_IrradianceN\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Sky_IrradianceN_vs.fxc",
+      "pixel_shader_file": "Sky_IrradianceN_ps.fxc"
+    },
+    {
+      "name": "Sky_SunColor\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Sky_SunColor_vs.fxc",
+      "pixel_shader_file": "Sky_SunColor_ps.fxc"
+    },
+    {
+      "name": "Primitive_Cubemap\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Primitive_Cubemap_vs.fxc",
+      "pixel_shader_file": "Primitive_Cubemap_ps.fxc"
+    },
+    {
+      "name": "Clear\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Clear_vs.fxc",
+      "pixel_shader_file": "Clear_ps.fxc"
+    },
+    {
+      "name": "Compressor_SelectColor\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Compressor_SelectColor_vs.fxc",
+      "pixel_shader_file": "Compressor_SelectColor_ps.fxc"
+    },
+    {
+      "name": "Compressor_IndexingColor\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Compressor_IndexingColor_vs.fxc",
+      "pixel_shader_file": "Compressor_IndexingColor_ps.fxc"
+    },
+    {
+      "name": "blur_kawase_add\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "blur_kawase_add_vs.fxc",
+      "pixel_shader_file": "blur_kawase_add_ps.fxc"
+    },
+    {
+      "name": "DOF_0_UpSample_Blend\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DOF_0_UpSample_Blend_vs.fxc",
+      "pixel_shader_file": "DOF_0_UpSample_Blend_ps.fxc"
+    },
+    {
+      "name": "DOF_0_UpSample_Blend_Far\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DOF_0_UpSample_Blend_Far_vs.fxc",
+      "pixel_shader_file": "DOF_0_UpSample_Blend_Far_ps.fxc"
+    },
+    {
+      "name": "CopyRenderBuffer_FarAlpha\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "CopyRenderBuffer_FarAlpha_vs.fxc",
+      "pixel_shader_file": "CopyRenderBuffer_FarAlpha_ps.fxc"
+    },
+    {
+      "name": "DOF_ScatterBakeFirst\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DOF_ScatterBakeFirst_vs.fxc",
+      "pixel_shader_file": "DOF_ScatterBakeFirst_ps.fxc"
+    },
+    {
+      "name": "DOF_ScatterBakeSecond\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DOF_ScatterBakeSecond_vs.fxc",
+      "pixel_shader_file": "DOF_ScatterBakeSecond_ps.fxc"
+    },
+    {
+      "name": "DOF_ScatterSprite\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DOF_ScatterSprite_vs.fxc",
+      "pixel_shader_file": "DOF_ScatterSprite_ps.fxc"
+    },
+    {
+      "name": "DOF_ScatterCompositeFar\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DOF_ScatterCompositeFar_vs.fxc",
+      "pixel_shader_file": "DOF_ScatterCompositeFar_ps.fxc"
+    },
+    {
+      "name": "DOF_ScatterCompositeNear\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DOF_ScatterCompositeNear_vs.fxc",
+      "pixel_shader_file": "DOF_ScatterCompositeNear_ps.fxc"
+    },
+    {
+      "name": "DOF_ScatterCompositeFinal\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DOF_ScatterCompositeFinal_vs.fxc",
+      "pixel_shader_file": "DOF_ScatterCompositeFinal_ps.fxc"
+    },
+    {
+      "name": "DOF_ScatterGather1\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DOF_ScatterGather1_vs.fxc",
+      "pixel_shader_file": "DOF_ScatterGather1_ps.fxc"
+    },
+    {
+      "name": "ColorCorrection_BlndLut_Add_T_T\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "ColorCorrection_BlndLut_Add_T_T_vs.fxc",
+      "pixel_shader_file": "ColorCorrection_BlndLut_Add_T_T_ps.fxc"
+    },
+    {
+      "name": "ColorCorrection_BlndLut_Add_T_G\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "ColorCorrection_BlndLut_Add_T_G_vs.fxc",
+      "pixel_shader_file": "ColorCorrection_BlndLut_Add_T_G_ps.fxc"
+    },
+    {
+      "name": "DOF_0_OnlyNear_ImageBlend\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DOF_0_OnlyNear_ImageBlend_vs.fxc",
+      "pixel_shader_file": "DOF_0_OnlyNear_ImageBlend_ps.fxc"
+    },
+    {
+      "name": "TemporalAA_CopyVelocity\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "TemporalAA_CopyVelocity_vs.fxc",
+      "pixel_shader_file": "TemporalAA_CopyVelocity_ps.fxc"
+    },
+    {
+      "name": "ReflectMapMake\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "ReflectMapMake_vs.fxc",
+      "pixel_shader_file": "ReflectMapMake_ps.fxc"
+    },
+    {
+      "name": "ReflectMapBlend\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "ReflectMapBlend_vs.fxc",
+      "pixel_shader_file": "ReflectMapBlend_ps.fxc"
+    },
+    {
+      "name": "ReflectMapBlur\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "ReflectMapBlur_vs.fxc",
+      "pixel_shader_file": "ReflectMapBlur_ps.fxc"
+    },
+    {
+      "name": "LocalReflection\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "LocalReflection_vs.fxc",
+      "pixel_shader_file": "LocalReflection_ps.fxc"
+    },
+    {
+      "name": "LocalReflectionComposite\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "LocalReflectionComposite_vs.fxc",
+      "pixel_shader_file": "LocalReflectionComposite_ps.fxc"
+    },
+    {
+      "name": "LocalReflectionAddBuffer\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "LocalReflectionAddBuffer_vs.fxc",
+      "pixel_shader_file": "LocalReflectionAddBuffer_ps.fxc"
+    },
+    {
+      "name": "LocalReflectionBlurRoughness\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "LocalReflectionBlurRoughness_vs.fxc",
+      "pixel_shader_file": "LocalReflectionBlurRoughness_ps.fxc"
+    },
+    {
+      "name": "LocalReflectionMask\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "LocalReflectionMask_vs.fxc",
+      "pixel_shader_file": "LocalReflectionMask_ps.fxc"
+    },
+    {
+      "name": "LocalReflectionTPP\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "LocalReflectionTPP_vs.fxc",
+      "pixel_shader_file": "LocalReflectionTPP_ps.fxc"
+    },
+    {
+      "name": "LocalReflectionTPPA1\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "LocalReflectionTPPA1_vs.fxc",
+      "pixel_shader_file": "LocalReflectionTPPA1_ps.fxc"
+    },
+    {
+      "name": "LocalReflectionTPPA2\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "LocalReflectionTPPA2_vs.fxc",
+      "pixel_shader_file": "LocalReflectionTPPA2_ps.fxc"
+    },
+    {
+      "name": "MotionBlur\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "MotionBlur_vs.fxc",
+      "pixel_shader_file": "MotionBlur_ps.fxc"
+    },
+    {
+      "name": "MotionBlurMcGuire\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "MotionBlurMcGuire_vs.fxc",
+      "pixel_shader_file": "MotionBlurMcGuire_ps.fxc"
+    },
+    {
+      "name": "MotionBlurCameraVelocity\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "MotionBlurCameraVelocity_vs.fxc",
+      "pixel_shader_file": "MotionBlurCameraVelocity_ps.fxc"
+    },
+    {
+      "name": "MotionBlurDilateVelocity_X\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "MotionBlurDilateVelocity_X_vs.fxc",
+      "pixel_shader_file": "MotionBlurDilateVelocity_X_ps.fxc"
+    },
+    {
+      "name": "MotionBlurDilateVelocity_X0\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "MotionBlurDilateVelocity_X0_vs.fxc",
+      "pixel_shader_file": "MotionBlurDilateVelocity_X0_ps.fxc"
+    },
+    {
+      "name": "MotionBlurDilateVelocity_Y\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "MotionBlurDilateVelocity_Y_vs.fxc",
+      "pixel_shader_file": "MotionBlurDilateVelocity_Y_ps.fxc"
+    },
+    {
+      "name": "MotionBlurLengthVelocity\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "MotionBlurLengthVelocity_vs.fxc",
+      "pixel_shader_file": "MotionBlurLengthVelocity_ps.fxc"
+    },
+    {
+      "name": "MotionBlurTile\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "MotionBlurTile_vs.fxc",
+      "pixel_shader_file": "MotionBlurTile_ps.fxc"
+    },
+    {
+      "name": "MotionBlurTileNeighbour\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "MotionBlurTileNeighbour_vs.fxc",
+      "pixel_shader_file": "MotionBlurTileNeighbour_ps.fxc"
+    },
+    {
+      "name": "MotionBlurBakeVelocityDepth\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "MotionBlurBakeVelocityDepth_vs.fxc",
+      "pixel_shader_file": "MotionBlurBakeVelocityDepth_ps.fxc"
+    },
+    {
+      "name": "SSAOPreClear\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSAOPreClear_vs.fxc",
+      "pixel_shader_file": "SSAOPreClear_ps.fxc"
+    },
+    {
+      "name": "SSAOStencilMask\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSAOStencilMask_vs.fxc",
+      "pixel_shader_file": "SSAOStencilMask_ps.fxc"
+    },
+    {
+      "name": "SSAOStencilMask_Near\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SSAOStencilMask_Near_vs.fxc",
+      "pixel_shader_file": "SSAOStencilMask_Near_ps.fxc"
+    },
+    {
+      "name": "CopyRenderBuffer\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "CopyRenderBuffer_vs.fxc",
+      "pixel_shader_file": "CopyRenderBuffer_ps.fxc"
+    },
+    {
+      "name": "CopyRenderBuffer_MRT\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "CopyRenderBuffer_MRT_vs.fxc",
+      "pixel_shader_file": "CopyRenderBuffer_MRT_ps.fxc"
+    },
+    {
+      "name": "CopyDepthBuffer\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "CopyDepthBuffer_vs.fxc",
+      "pixel_shader_file": "CopyDepthBuffer_ps.fxc"
+    },
+    {
+      "name": "CopyDepthTarget\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "CopyDepthTarget_vs.fxc",
+      "pixel_shader_file": "CopyDepthTarget_ps.fxc"
+    },
+    {
+      "name": "DownSampleDepth\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DownSampleDepth_vs.fxc",
+      "pixel_shader_file": "DownSampleDepth_ps.fxc"
+    },
+    {
+      "name": "DownSampleDepth_Farthest\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DownSampleDepth_Farthest_vs.fxc",
+      "pixel_shader_file": "DownSampleDepth_Farthest_ps.fxc"
+    },
+    {
+      "name": "DownSampleDepth_NearFar\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "DownSampleDepth_NearFar_vs.fxc",
+      "pixel_shader_file": "DownSampleDepth_NearFar_ps.fxc"
+    },
+    {
+      "name": "GammaControl\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "GammaControl_vs.fxc",
+      "pixel_shader_file": "GammaControl_ps.fxc"
+    },
+    {
+      "name": "Depth2Linear\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Depth2Linear_vs.fxc",
+      "pixel_shader_file": "Depth2Linear_ps.fxc"
+    },
+    {
+      "name": "Depth2Linear_RGBA8\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "Depth2Linear_RGBA8_vs.fxc",
+      "pixel_shader_file": "Depth2Linear_RGBA8_ps.fxc"
+    },
+    {
+      "name": "BilateralUpscale2x2\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "BilateralUpscale2x2_vs.fxc",
+      "pixel_shader_file": "BilateralUpscale2x2_ps.fxc"
+    },
+    {
+      "name": "BilateralUpscale2x2_Prim\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "BilateralUpscale2x2_Prim_vs.fxc",
+      "pixel_shader_file": "BilateralUpscale2x2_Prim_ps.fxc"
+    },
+    {
+      "name": "NearFarUpScale2x2\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "NearFarUpScale2x2_vs.fxc",
+      "pixel_shader_file": "NearFarUpScale2x2_ps.fxc"
+    },
+    {
+      "name": "CopyBuffer\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "CopyBuffer_vs.fxc",
+      "pixel_shader_file": "CopyBuffer_ps.fxc"
+    },
+    {
+      "name": "SubSurfaceScattering\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SubSurfaceScattering_vs.fxc",
+      "pixel_shader_file": "SubSurfaceScattering_ps.fxc"
+    },
+    {
+      "name": "AmbientObscuranceSSAO\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "AmbientObscuranceSSAO_vs.fxc",
+      "pixel_shader_file": "AmbientObscuranceSSAO_ps.fxc"
+    },
+    {
+      "name": "AmbientObscuranceSSAOBlur\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "AmbientObscuranceSSAOBlur_vs.fxc",
+      "pixel_shader_file": "AmbientObscuranceSSAOBlur_ps.fxc"
+    },
+    {
+      "name": "CopyBuffer\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "CopyBuffer_vs.fxc",
+      "pixel_shader_file": "CopyBuffer_ps.fxc"
+    },
+    {
+      "name": "SH_Debug_SphereMap\u0000",
+      "encoding": "shift-jis",
+      "vertex_shader_file": "SH_Debug_SphereMap_vs.fxc",
+      "pixel_shader_file": "SH_Debug_SphereMap_ps.fxc"
+    }
+  ],
+  "_info": "Edit .fxc files freely. To add a shader: add entry with \"name\", \"vertex_shader_file\", \"pixel_shader_file\". Order matters for repacking."
+}
